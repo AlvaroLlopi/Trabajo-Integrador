@@ -1,0 +1,15 @@
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divimagenfondo{
+  width: auto;
+  height: 600px;
+  background-image: url("hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 25;
+}
