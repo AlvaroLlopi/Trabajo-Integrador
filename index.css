@@ -1,15 +1,40 @@
-h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: end;
+    float: right;
 }
 
-#divimagenfondo{
-  width: auto;
-  height: 600px;
-  background-image: url("hawaii.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 25;
+span{
+    margin: 0.5em auto;
+    display: inline;
+    text-align: justify;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    color:rgba(255, 255, 255);
+}
+.centrado1{
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    color: rgba(255, 255, 255);
+}
+footer{
+    background: rgb(21,10,205);
+    background: linear-gradient(90deg, rgba(21,10,205,1) 0%, rgba(9,9,121,1) 35%, rgba(63,137,153,1) 100%);
+}
+#texto{
+    position: relative;
+    display: inline-block;
+    text-align: left;
 }
