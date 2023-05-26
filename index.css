@@ -10,6 +10,7 @@ span{
     margin: 0.5em auto;
     display: inline;
     text-align: justify;
+    justify-content: space-around;
 }
 
 .contenedor{
@@ -32,9 +33,15 @@ span{
 footer{
     background: rgb(21,10,205);
     background: linear-gradient(90deg, rgba(21,10,205,1) 0%, rgba(9,9,121,1) 35%, rgba(63,137,153,1) 100%);
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
 #texto{
     position: relative;
     display: inline-block;
     text-align: left;
+}
+
+.boton{
+    margin-left: 25%;
 }
